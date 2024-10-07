@@ -1,7 +1,6 @@
 import React from 'react'
 import { Button, Input, Textarea } from "@nextui-org/react";
 const Page = () => {
-  const sizes = ["sm", "md", "lg"];
   return (
     <div className="pr-6 pl-6 md:pr-20 md:pl-20 mb-10 pt-10 w-full h-full flex justify-center">
       <div className="w-full md:w-[60%] gap-6 bg-slate-200 rounded">

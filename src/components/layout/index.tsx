@@ -3,8 +3,6 @@ import Experience from "@/pages/experience";
 import Experties from "@/pages/experties";
 import Projects from "@/pages/projects";
 import React from "react";
-import Header from "../common/header";
-
 
 const Layout = () => {
 	return (
