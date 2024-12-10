@@ -22,7 +22,7 @@ export default function CardComponent() {
       </div>
       <div className="w-full flex-1 p-6">
         <div className="text w-full h-full  flex flex-col justify-around">
-          <h3 className="text-2xl font-semibold">Santosh Bhandari 👋</h3>
+          <h3 className="text-xl font-bold">Santosh Bhandari 👋</h3>
           <p>
             A Passionate <span className="font-bold">Frontend Developer</span>{" "}
             🖥️ &amp; having

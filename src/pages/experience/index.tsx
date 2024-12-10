@@ -54,10 +54,10 @@ const Experience = () => {
 	];
 	return (
 		<div className='w-full h-full rounded flex flex-col p-1'>
-			<h3 className='text-xl font-semibold p-3 bg-white rounded'>Work Experience</h3>
+			<h6 className='text-xl font-bold p-3 bg-white rounded'>Work Experience</h6>
 			<div className='w-full flex-1 overflow-hidden'>
 				<div className="w-full h-full max-h-60 overflow-y-scroll" style={{ scrollbarWidth: 'none' }}>
-					<ul className="list-none text-sm p-2">
+					<ul className="list-none text-xs p-2">
 						{experiences.map((experience, index) => (
 							<li key={index} className="mb-2 flex">
 								<div className="date mr-6">
@@ -74,7 +74,7 @@ const Experience = () => {
 										/>
 									</div>
 									<div className="text">
-										<h4 className="title text-lg font-bold">{experience.company}</h4>
+										<h4 className="title font-bold">{experience.company}</h4>
 										<h6 className="subtitle text-gray-600">{experience.position}</h6>
 									</div>
 								</div>

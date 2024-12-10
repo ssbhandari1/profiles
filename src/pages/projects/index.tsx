@@ -7,7 +7,7 @@ const Projects = () => {
 	return (
 		<div className='w-full h-full rounded flex flex-col p-1 gap-3'>
 			<div className='w-full flex justify-between p-3 bg-white rounded'>
-				<h3 className='text-xl font-semibold'>Recent Projects</h3>
+				<h6 className='text-xl font-bold'>Recent Projects</h6>
 				<button className='flex items-center gap-2 text-blue-500 cursor-pointer hover:text-red-500'>
 					All Projects <FaArrowRightLong />
 				</button>

@@ -2,19 +2,19 @@ import React from 'react'
 import { Button, Input, Textarea } from "@nextui-org/react";
 const Page = () => {
   return (
-    <div className="pr-6 pl-6 md:pr-20 md:pl-20 mb-10 pt-10 w-full h-full flex justify-center">
+    <div className="text-xs pr-6 pl-6 md:pr-20 md:pl-20 mb-10 pt-10 w-full h-full flex justify-center">
       <div className="w-full md:w-[60%] gap-6 bg-slate-200 rounded">
         <div className="p-3">
-          <h1 className="text-2xl sm:text-4xl font-bold flex items-center space-x-2">
+          <h1 className="text-sm sm:text-xl font-bold flex items-center space-x-2">
             <span className='flex items-center'>Lets</span>	👋
             <span className="text-blue-500">Work</span>
             <span>Together</span>
           </h1>
-          <p className="text-sm sm:text-lg mt-4 text-gray-600">
+          <p className="text-sm mt-4 text-gray-600">
             Im here to help if youre searching for a product designer to bring your idea to life or a design partner to help take your business to the next level.
           </p>
         </div>
-        <div className='w-full bg-slate-200'>
+        <div className='w-full bg-slate-200 rounded'>
           <div className='w-full p-4 flex items-center flex-col justify-center gap-4'>
             <div className="flex w-[90%] flex-wrap md:flex-nowrap mb-6 md:mb-0 gap-4 pt-3">
               <Input size={'lg'} type="text" label="Name" placeholder="Enter your name" />

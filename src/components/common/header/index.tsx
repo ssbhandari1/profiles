@@ -50,7 +50,7 @@ const Header = () => {
 	return (
 		<div className="w-full md:w-[80%] h-[8vh] bg-slate-200 rounded-xl flex items-center p-2 justify-between">
 			<span className="flex items-center gap-2">
-				<MdSpaceDashboard className="text-3xl" /> Dashboard
+				<MdSpaceDashboard className="text-2xl" /> Dashboard
 			</span>
 			<div className="hidden xl:flex items-center gap-7 mr-10 text-gray-600">
 				{

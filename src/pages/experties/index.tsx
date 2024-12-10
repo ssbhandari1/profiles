@@ -51,7 +51,7 @@ const expertAreas = [
 const Experties = () => {
 	return (
 		<div className='w-full h-full rounded flex flex-col p-1'>
-			<h3 className='text-xl font-semibold p-3 bg-white rounded'>My Expert Area</h3>
+			<h6 className='text-xl font-bold p-3 bg-white rounded'>My Expert Area</h6>
 			<div className='w-full flex-1 overflow-hidden'>
 				<ul className="w-full h-full max-h-60 p-4 grid grid-cols-3 gap-4 overflow-x-auto" style={{ scrollbarWidth: 'none' }}>
 					{expertAreas.map((expert, index) => (
