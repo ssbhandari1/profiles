@@ -50,7 +50,7 @@ const Header = () => {
 	return (
 		<div className="w-full md:w-[80%] h-[8vh] bg-slate-200 rounded-xl flex items-center p-2 justify-between">
 			<span className="flex items-center gap-2">
-				<MdSpaceDashboard className="text-2xl" /> Dashboard
+				<MdSpaceDashboard className="text-2xl font-semibold" /> Santosh Singh
 			</span>
 			<div className="hidden xl:flex items-center gap-7 mr-10 text-gray-600">
 				{
@@ -79,8 +79,7 @@ const Header = () => {
 				<div className="fixed top-0 left-0 w-[250px] h-full bg-slate-800 text-white z-50 p-4 transition-transform duration-300">
 					<div className="flex justify-between items-center mb-6">
 						<span className="flex items-center gap-2">
-							<MdSpaceDashboard className="text-3xl" /> Dashboard
-						</span>
+						<MdSpaceDashboard className="text-2xl font-semibold" /> Santosh Singh						</span>
 						<button
 							onClick={toggleSidebar}
 							className="text-white text-2xl focus:outline-none"
