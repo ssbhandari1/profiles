@@ -35,16 +35,6 @@ const expertAreas = [
 		name: "MongoDB",
 		icon: <SiMongodb className="text-3xl text-green-600" />,
 		color: "bg-white border border-gray-300"
-	},
-	{
-		name: "TypeScript",
-		icon: <SiTypescript className="text-3xl text-blue-600" />,
-		color: "bg-white border border-gray-300"
-	},
-	{
-		name: "MongoDB",
-		icon: <SiMongodb className="text-3xl text-green-600" />,
-		color: "bg-white border border-gray-300"
 	}
 ];
 

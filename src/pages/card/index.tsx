@@ -28,17 +28,17 @@ export default function CardComponent() {
             🖥️ &amp; having
             <span className="font-bold"> 1.5 years</span> of Experience.
           </p>
-          <div className=" mt-4 flex space-x-4">
+          <div className=" mt-4 flex space-x-2">
             <button className="bg-green-600 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
               <FiPhoneCall />
-              <span>Book A Call</span>
+              <span>Let's connect</span>
             </button>
             <button
-              className="btn btn-copy bg-gray-400 text-white px-4 py-2 rounded-lg flex items-center space-x-2"
+              className="bg-gray-400 text-white px-4 py-2 rounded-lg flex items-center space-x-2"
               data-clipboard-text="example@example.com"
             >
               <MdContentCopy />
-              <span>Copy Email</span>
+              <span>My Resume</span>
             </button>
           </div>
           <div className="mt-4">
