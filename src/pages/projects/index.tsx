@@ -41,7 +41,7 @@ const Projects = () => {
       <div className="w-full h-[60vh] xl:flex-1 xl:h-full flex flex-col gap-4 p-3">
         {projects?.map((project) => {
           return (
-            <div className="relative flex-1 bg-slate-900 rounded-md group cursor-pointer overflow-hidden">
+            <div key={project.id} className="relative flex-1 bg-slate-900 rounded-md group cursor-pointer overflow-hidden">
               <Image
                 src={project.img}
                 alt="Cover"

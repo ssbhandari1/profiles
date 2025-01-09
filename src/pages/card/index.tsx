@@ -31,7 +31,7 @@ export default function CardComponent() {
           <div className=" mt-4 flex space-x-2">
             <button className="bg-green-600 text-white px-4 py-2 rounded-lg flex items-center space-x-2">
               <FiPhoneCall />
-              <span>Let's connect</span>
+              <span>Let&apos;s connect</span>
             </button>
             <button
               className="bg-gray-400 text-white px-4 py-2 rounded-lg flex items-center space-x-2"
