@@ -2,16 +2,8 @@
 import React from "react";
 import { Button, Input, Textarea } from "@nextui-org/react";
 const Page = () => {
-  const handleSubmit = (e: any) => {
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const formData = {
-      name: e.target.name.value,
-      email: e.target.email.value,
-      subject: e.target.subject.value,
-      phone: e.target.phone.value,
-      description: e.target.description.value,
-    };
-    console.log("handleSubmit", formData);
   };
 
   return (
@@ -24,7 +16,7 @@ const Page = () => {
             <span>Together</span>
           </h1>
           <p className="text-sm mt-4 text-gray-600">
-            <b className="text-blue-500"> "Let&apos;s Build Something Amazing Together!"</b>{" "}
+            <b className="text-blue-500"> Let&apos;s Build Something Amazing Together!</b>{" "}
             feel free to reach out if you are looking for a passionate developer to bring your ideas to life.I&apos;m always excited to colliborate on meaningful Project.
           </p>
         </div>
