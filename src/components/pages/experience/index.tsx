@@ -1,5 +1,4 @@
 import React from "react";
-import { Image } from "@nextui-org/react";
 
 const Experience = () => {
   const experiences = [
@@ -31,15 +30,15 @@ const Experience = () => {
         >
           <ul className="list-none text-xs p-2">
             {experiences.map((experience, index) => (
-              <li key={index} className="flex pb-3 pt-2  border-b-1 border-gray-300">
-                <div className="w-1/3">
-                  <p className="text-gray-500 text-xs">{experience.date}</p>
-                </div>
+              <li key={index} className="flex pb-3 pt-2 justify-between border-b-1 border-gray-300">
                 <div className="w-1/2">
-                  <h4 className=" font-bold">{experience.company}</h4>
-                  <p className=" text-gray-600 text-xs">
+                  <h4 className=" font-bold text-blue-500">{experience.company}</h4>
+                  <p className=" text-gray-500 text-xs">
                     {experience.position}
                   </p>
+                </div>
+                <div className="w-1/3">
+                  <p className="text-gray-500 text-xs whitespace-nowrap">{experience.date}</p>
                 </div>
               </li>
             ))}

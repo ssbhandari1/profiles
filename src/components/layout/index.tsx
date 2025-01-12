@@ -1,7 +1,7 @@
-import CardComponent from "@/pages/card";
-import Experience from "@/pages/experience";
-import Experties from "@/pages/experties";
-import Projects from "@/pages/projects";
+import CardComponent from "@/components/pages/card";
+import Experience from "@/components/pages/experience";
+import Experties from "@/components/pages/experties";
+import Projects from "@/components/pages/projects";
 import React from "react";
 
 const Layout = () => {

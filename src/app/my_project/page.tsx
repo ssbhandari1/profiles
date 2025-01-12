@@ -51,11 +51,11 @@ const Page = () => {
               </div>
 
               <div className="hide-scroll flex-1 rounded p-3 max-h-[200px] overflow-y-auto">
-                <h3 className="text-[1.2rem] font-semibold mt-2">
+                <h3 className="text-[1.2rem] font-semibold mt-2 text-blue-500">
                   {project.name}
                 </h3>
-                <span className="text-[0.7rem] mt-2">{project.language}</span>
-                <p className="text-xs mt-2">{project.discription}</p>
+                <p className="text-[0.7rem] mt-4">{project.language}</p>
+                <p className="text-xs mt-2 text-gray-500">{project.discription}</p>
               </div>
             </div>
           );

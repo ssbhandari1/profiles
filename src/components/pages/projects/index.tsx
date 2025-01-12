@@ -3,7 +3,7 @@ import Image from "next/image";
 import React from "react";
 import { FaArrowRightLong } from "react-icons/fa6";
 import { FaCirclePlus } from "react-icons/fa6";
-import theater from "../../assets/theater.png";
+import theater from "../../../assets/theater.png";
 import Link from "next/link";
 const Projects = () => {
   //https://mycinemas.netlify.app/
