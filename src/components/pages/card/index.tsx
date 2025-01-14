@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
 import Image from "next/image";
-import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaWhatsappSquare } from "react-icons/fa";
 import { FiPhoneCall } from "react-icons/fi";
@@ -63,10 +63,10 @@ export default function CardComponent() {
             <ul className="flex space-x-4">
               <li className="border border-solid border-gray-400 p-2 rounded cursor-pointer">
                 <Link
-                  href="https://www.facebook.com/your-profile"
+                  href="https://www.linkedin.com/in/santosh-singh-bhandari"
                   target="_blank"
                 >
-                  <FaFacebook className="text-2xl" />
+                  <FaLinkedin className="text-2xl" />
                 </Link>
               </li>
               <li className="border border-solid border-gray-400 p-2 rounded cursor-pointer">
